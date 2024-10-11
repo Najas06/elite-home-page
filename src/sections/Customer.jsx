@@ -22,7 +22,7 @@ const Customer = () => {
           "
         </p>
       </div>
-      <div className="mt-10 flex justify-center border border-pink-700 flex-col gap-5 max-w-[1000px] mx-auto max-lg:max-w-[700px] max-md:max-w-[600px] max-sm:max-w-[400px]items-center">
+      <div className="mt-10 flex justify-center  flex-col gap-5 max-w-[1000px] mx-auto max-lg:max-w-[700px] max-md:max-w-[600px] max-sm:max-w-[400px]items-center max-sm:p-3">
         <Carousel>
           <CarouselContent>
             <CarouselItem>

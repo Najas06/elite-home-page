@@ -11,7 +11,7 @@ import Customer from './sections/Customer'
 function App() {
   return (
    <>
-   <main className='max-w-[1920px] mx-auto border-2 border-red-600'>
+   <main className='max-w-[1920px] mx-auto'>
     <Hero/>
     <HeroAbout/>
     <Property/>

@@ -11,7 +11,6 @@ import Customer from './sections/Customer'
 function App() {
   return (
    <>
-   <main className='max-w-[1920px] mx-auto'>
     <Hero/>
     <HeroAbout/>
     <Property/>
@@ -21,7 +20,6 @@ function App() {
     <Gallery/>
     <Customer/>
     <Footer/>
-   </main>
    </>
   )
 }

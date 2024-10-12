@@ -3,7 +3,7 @@ import herobg from "../assets/herobg.png";
 import { GoArrowUpRight } from "react-icons/go";
 const Contact = () => {
   return (
-    <section className="relative p-10">
+    <section className="relative p-10 max-w-[1920px] mx-auto overflow-hidden">
       <div>
         <img
           src={herobg}

@@ -189,7 +189,7 @@ const Property = () => {
         <img
           src={circle}
           alt="circle"
-          className="absolute -left-[5%] bottom-0"
+          className="absolute -left-[5%] bottom-0 max-sm:-left-[10%]"
         />
           <div className="p-5 flex items-center max-lg:flex-col max-lg:gap-3 gap-36 justify-center">
             <div className=" relative flex flex-col items-center bg-[#FFDCDC] rounded-3xl">

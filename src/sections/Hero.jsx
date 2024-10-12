@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 const Hero = () => {
   return (
-    <section className="max-w-[1920px] mx-auto p-5 relative bg-black bg-opacity-10">
+    <section className="max-w-[1920px] mx-auto p-5 relative bg-black bg-opacity-10 ">
       <div className="relative max-sm:min-h-[80vh]   ">
         <img
           src={herobg}

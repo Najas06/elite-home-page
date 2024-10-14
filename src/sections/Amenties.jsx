@@ -16,22 +16,51 @@ const Amenties = () => {
       <h2 className="text-5xl text-center text-[#cd1310] font-semibold max-lg:text-4xl max-md:text-3xl">
         AMENITIES AND SPECIFICATIONS
       </h2>
-      <div className=" flex flex-col items-center w-[450px] mt-10 mx-auto relative max-sm:w-[350px]">
-        <Carousel>
+      <div className=" flex flex-col items-center w-[90%] mt-10 mx-auto relative ">
+        {/* <Carousel>
           <CarouselContent>
-            <CarouselItem className="">
+            <CarouselItem className="basic-1/3">
               <img src={Carousel1} alt="" className="w-full object-contain"/>
             </CarouselItem>
-            <CarouselItem className="">
+            <CarouselItem className="basic-1/3">
               <img src={Carousel2} alt="" className="w-full object-contain"/>
             </CarouselItem>
-            <CarouselItem className="">
+            <CarouselItem className="basic-1/3">
               <img src={Carousel3} alt="" className="w-full object-contain"/>
             </CarouselItem>
            
           </CarouselContent>
           <CarouselPrevious className="text-[#cd1310] border-2 border-[#cd1310] w-[40px] h-[40px] max-sm:hidden"  />
           <CarouselNext className="text-[#cd1310] border-2 border-[#cd1310] w-[40px] h-[40px] max-sm:hidden " />
+        </Carousel> */}
+      
+        <Carousel className=" relative my-10">
+          <CarouselContent>
+            <CarouselItem className="md:basis-1/3 sm:basis-1/2 ">
+               <img src={Carousel1} alt="" className="w-full object-contain "/>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/3 sm:basis-1/2 ">
+               <img src={Carousel2} alt="" className="w-full object-contain"/>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/3 sm:basis-1/2 ">
+               <img src={Carousel3} alt="" className="w-full object-contain"/>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/3 sm:basis-1/2 ">
+               <img src={Carousel1} alt="" className="w-full object-contain"/>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/3 sm:basis-1/2 ">
+               <img src={Carousel2} alt="" className="w-full object-contain"/>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/3 sm:basis-1/2 ">
+               <img src={Carousel3} alt="" className="w-full object-contain"/>
+            </CarouselItem>
+          </CarouselContent>
+       <div className="relative bottom-0 flex justify-center items-center gap-3  p-5 max-sm:hidden">
+     <div className="flex justify-center mt-10">
+     <CarouselPrevious className="text-[#cd1310] border-2 border-[#cd1310]  w-[60px] h-[60px] absolute left-[40%] "  />
+     <CarouselNext className="text-[#cd1310] border-2 border-[#cd1310] w-[60px] h-[60px]  absolute right-[40%]  " />
+     </div>
+       </div>
         </Carousel>
       </div>
     </section>

@@ -33,7 +33,7 @@ const HeroAbout = () => {
       </div>
       <div className="mt-24 gap-2 flex flex-col items-center justify-center xl:mx-40 xl:items-start">
         <h2 className="text-3xl text-[#cd1310] font-light md:text-5xl">Innovative Designs,</h2>
-        <h2 className="flex items-center gap-2 text-4xl font-light md:text-6xl">Lasting Quality <GoArrowUpRight className="bg-[#D47878] bg-opacity-50 p-2 rounded-full text-7xl text-[#cd1310]"/></h2> 
+        <h2 className="flex items-center gap-2 text-4xl font-light md:text-6xl relative ">Lasting Quality <span className="opacity-60"><GoArrowUpRight className="bg-[#D47878] bg-opacity-30 p-2 rounded-full text-5xl text-[#cd1310] absolute -top-20 -right-32 w-44 h-44 max-lg:-top-20 max-md:w-28 max-md:h-28 max-md:-top-10 max-md:-right-16"/></span></h2> 
       </div>
     </section>
   );

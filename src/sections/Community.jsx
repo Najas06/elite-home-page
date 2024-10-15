@@ -9,7 +9,7 @@ import shop from "../assets/shop.png";
 const Community = () => {
   return (
     <section className="max-w-[1920px] mx-auto relative mt-10">
-      <div className="flex h-[500px] max-lg:h-[800px] justify-end items-center max-md:py-10">
+      <div className="flex h-[500px] max-lg:h-screen justify-end items-center max-md:py-10">
         <div>
           <img
             src={community}

@@ -9,16 +9,16 @@ import {
 import { GoArrowUpRight } from "react-icons/go";
 const Customer = () => {
   return (
-    <section className="max-w-[1920px] mx-auto my-20">
+    <section className="max-w-[1920px] mx-auto my-20 overflow-hidden">
       <h2 className="text-[#cd1310] text-5xl text-center font-semibold max-md:text-3xl">
         WHAT OUR CUSTOMERS SAY ?
       </h2>
       <div className="mt-10 relative max-w-[1000px]  mx-auto max-lg:max-w-[800px] max-md:max-w-[600px] max-sm:max-w-[400px]">
         <hr className="border-[#cd1310] max-w-[900px] mx-auto max-lg:max-w-[700px] max-md:max-w-[500px] max-sm:max-w-[300px]" />
-        <p className="absolute -top-5 text-9xl text-[#cd1310] font-semibold">
+        <p className="absolute -top-5 text-9xl text-[#cd1310] font-semibold xl:text-[200px] xl:-top-6">
           "
         </p>
-        <p className="absolute right-0 -top-5 text-9xl text-[#cd1310] font-semibold hidden max-sm:block">
+        <p className="absolute right-0 -top-5 text-9xl text-[#cd1310] font-semibold hidden ">
           "
         </p>
       </div>
@@ -28,7 +28,7 @@ const Customer = () => {
             <CarouselItem>
               <iframe
                 className="border-2 w-full border-[#cd1310] rounded-3xl"
-                height="500"
+                height="400"
                 src="https://www.youtube.com/embed/AFeZorXeI8w?si=WwIgREllH2MyuOY_"
                 title="YouTube video player"
                 frameborder="0"
@@ -40,7 +40,7 @@ const Customer = () => {
             <CarouselItem>
               <iframe
                 className="border-2 w-full border-[#cd1310] rounded-3xl"
-                height="500"
+                height="400"
                 src="https://www.youtube.com/embed/AFeZorXeI8w?si=WwIgREllH2MyuOY_"
                 title="YouTube video player"
                 frameborder="0"
@@ -52,7 +52,7 @@ const Customer = () => {
             <CarouselItem>
               <iframe
                 className="border-2 w-full border-[#cd1310] rounded-3xl"
-                height="500"
+                height="400"
                 src="https://www.youtube.com/embed/AFeZorXeI8w?si=WwIgREllH2MyuOY_"
                 title="YouTube video player"
                 frameborder="0"
@@ -61,10 +61,11 @@ const Customer = () => {
                 allowfullscreen
               ></iframe>
             </CarouselItem>
+            
           </CarouselContent>
-          <div className="absolute  -right-36 max-md:right-5 max-lg:-right-[5%]  -top-10">
-            <CarouselPrevious className="text-[#cd1310] border-2 border-[#cd1310] w-[40px] h-[40px] max-sm:hidden " />
-            <CarouselNext className="text-[#cd1310] border-2 border-[#cd1310] w-[40px] h-[40px] max-sm:hidden " />
+          <div className="absolute -right-40 -top-10 border border-green-50 max-lg:-right-16 max-md:-right-0 max-sm:right-14 max-sm:-top-14 bg-white ">
+            <CarouselPrevious className="text-[#cd1310] border-4 border-[#cd1310] w-[40px] h-[40px]  xl:w-[70px] xl:h-[70px] bg-white" />
+            <CarouselNext className="text-[#cd1310] border-4 border-[#cd1310] w-[40px] h-[40px]  xl:w-[70px] xl:h-[70px] bg-white absolute -right-24 max-xl:-right-10" />
           </div>
         </Carousel>
       </div>

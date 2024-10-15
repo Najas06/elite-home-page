@@ -47,10 +47,10 @@ const Amenties = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-       <div className="relative bottom-0 flex justify-center items-center gap-3  p-5 max-sm:hidden">
+       <div className="relative bottom-0 flex justify-center items-center gap-3  p-5 ">
      <div className="flex justify-center mt-10">
-     <CarouselPrevious className="text-[#cd1310] border-2 border-[#cd1310]  w-[60px] h-[60px] absolute left-[45%] max-2xl:left-[40%]"  />
-     <CarouselNext className="text-[#cd1310] border-2 border-[#cd1310] w-[60px] h-[60px]  absolute right-[45%] max-2xl:right-[40%]  " />
+     <CarouselPrevious className="text-[#cd1310] border-4 border-[#cd1310] xl:w-[70px] xl:h-[70px]  w-[60px] h-[60px] absolute left-[45%] max-2xl:left-[40%] max-sm:left-[33%]"  />
+     <CarouselNext className="text-[#cd1310] border-4 border-[#cd1310] w-[60px] h-[60px] xl:w-[70px] xl:h-[70px] absolute right-[45%] max-2xl:right-[40%] max-sm:right-[33%] " />
      </div>
        </div>
         </Carousel>

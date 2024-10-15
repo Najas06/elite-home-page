@@ -9,7 +9,7 @@ import shop from "../assets/shop.png";
 const Community = () => {
   return (
     <section className="max-w-[1920px] mx-auto relative mt-10">
-      <div className="flex h-[500px] max-lg:h-screen justify-end items-center max-md:py-10">
+      <div className="flex h-[700px] max-lg:h-screen justify-end items-center max-md:py-10">
         <div>
           <img
             src={community}
@@ -19,8 +19,8 @@ const Community = () => {
         </div>
         <div className="flex gap-5 justify-between mx-20 items-center  max-lg:flex-col max-md:mx-5">
           <div className="w-[40%]  h-full max-lg:w-full ">
-            <h1 className="text-5xl text-white">THE COMMUNITY</h1>
-            <p className="text-2xl text-white mt-3 max-md:text-xl">
+            <h1 className="text-5xl text-white font-medium">THE COMMUNITY</h1>
+            <p className="text-2xl text-white mt-5 max-md:text-xl ">
               The neighbourhoods of Elite Insigna allows you quick access to
               major shopping facilities, medical facilities, schools and sports
               hubs.

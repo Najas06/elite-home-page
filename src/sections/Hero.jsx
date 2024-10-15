@@ -19,15 +19,15 @@ const Hero = () => {
         />
         {/* logo  */}
         <div className="flex items-center mx-5 max-lg:mx-0">
-          <img src={logo} alt="logo" className="w-28 max-md:w-16" />
-          <div>
+          <img src={logo} alt="logo" className="max-lg:w-[200px] max-md:w-[100px]" />
+          {/* <div>
             <p className="text-xl tracking-wider md:text-6xl max-sm:text-3xl">ELITE</p>
             <p className="text-xs  md:text-xl sub-line ">Building Lifestyles</p>
-          </div>
+          </div> */}
         </div>
 
         {/* hero content  */}
-        <div className="flex flex-col justify-center items-center mt-16 gap-5 text-[#cd1310] xl:flex-row  xl:justify-center ">
+        <div className="flex flex-col justify-center items-center mt-10 gap-5 text-[#cd1310] xl:flex-row  xl:justify-center ">
           <div className="flex flex-col justify-center items-center gap-5 xl:items-start xl:text-left xl:gap-10  xl:mx-10">
             <h2 className="text-5xl font-semibold tracking-wider md:text-7xl xl:text-8xl">
               "INSIGNA"
@@ -35,8 +35,8 @@ const Hero = () => {
             <p className="flex gap-3 items-center text-xl md:text-2xl xl:text-3xl">
               <FaLocationDot /> Patturaikkal, Thrissur, Kerala
             </p>
-            <button className="bg-[#cd1310] text-white px-5 py-2 rounded-full flex items-center gap-2 md:text-2xl ">
-              Sample Appartment Ready <GoArrowUpRight />
+            <button className="bg-[#cd1310] text-white px-6 py-4 rounded-full flex items-center gap-2 md:text-2xl p ">
+              Sample Appartment Ready <GoArrowUpRight size={40} />
             </button>
             <p className="text-sm text-neutral-700 md:text-xl xl:text-2xl">
               Closer To Thrissur’s Prominent <br /> Places and Conveniences

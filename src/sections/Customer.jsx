@@ -15,8 +15,8 @@ const Customer = () => {
       </h2>
       <div className="mt-10 relative max-w-[1000px]  mx-auto max-lg:max-w-[800px] max-md:max-w-[600px] max-sm:max-w-[400px]">
         <hr className="border-[#cd1310] max-w-[900px] mx-auto max-lg:max-w-[700px] max-md:max-w-[500px] max-sm:max-w-[300px]" />
-        <p className="absolute -top-5 text-9xl text-[#cd1310] font-semibold xl:text-[200px] xl:-top-6">
-          "
+        <p className="absolute -top-8 -left-5 text-9xl text-[#cd1310] font-semibold xl:text-[200px] xl:-top-14 xl:-left-10 max-sm:-left-2">
+          “
         </p>
         <p className="absolute right-0 -top-5 text-9xl text-[#cd1310] font-semibold hidden ">
           "
@@ -63,7 +63,7 @@ const Customer = () => {
             </CarouselItem>
             
           </CarouselContent>
-          <div className="absolute -right-40 -top-10 border border-green-50 max-lg:-right-16 max-md:-right-0 max-sm:right-14 max-sm:-top-14 bg-white ">
+          <div className="absolute -right-40 -top-10 max-lg:-right-16 z-50  max-md:-right-0 max-sm:right-[7%] max-sm:-top-[13%] bg-white  ">
             <CarouselPrevious className="text-[#cd1310] border-4 border-[#cd1310] w-[40px] h-[40px]  xl:w-[70px] xl:h-[70px] bg-white" />
             <CarouselNext className="text-[#cd1310] border-4 border-[#cd1310] w-[40px] h-[40px]  xl:w-[70px] xl:h-[70px] bg-white absolute -right-24 max-xl:-right-10" />
           </div>

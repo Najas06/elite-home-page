@@ -9,6 +9,9 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import EmblaCarousel from "@/components/EmblaCarousel";
+
+const SLIDES = [ Carousel1, Carousel2, Carousel3, Carousel1, Carousel2, Carousel3 ];
 
 const Amenties = () => {
   return (
@@ -34,7 +37,7 @@ const Amenties = () => {
           <CarouselNext className="text-[#cd1310] border-2 border-[#cd1310] w-[40px] h-[40px] max-sm:hidden " />
         </Carousel> */}
       
-        <Carousel className=" relative my-10 ">
+        {/* <Carousel className=" relative my-10 ">
           <CarouselContent className="">
             {Array.from({length: 6}, (_, i) => (
               <CarouselItem
@@ -53,7 +56,8 @@ const Amenties = () => {
      <CarouselNext className="text-[#cd1310] border-4 border-[#cd1310] w-[60px] h-[60px] xl:w-[70px] xl:h-[70px] absolute right-[45%] max-2xl:right-[40%] max-sm:right-[33%] " />
      </div>
        </div>
-        </Carousel>
+        </Carousel> */}
+       <EmblaCarousel slides={SLIDES} />
       </div>
     </section>
   );

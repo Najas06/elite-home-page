@@ -12,3 +12,18 @@ export const company = {
         }
     ]
 }
+
+export const images = [
+    {
+        id: 1,
+        photo:'."../assets/Carousel1.png'
+    },
+    {
+        id: 2,
+        photo:'./assets/Carousel2.png'
+    },
+    {
+        id: 3,
+        photo:'./assets/Carousel3.png'
+    }
+]

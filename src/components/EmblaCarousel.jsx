@@ -15,7 +15,8 @@ const numberWithinRange = (number, min, max) =>
 
 const EmblaCarousel = (props) => {
   const { slides, options } = props;
-  const [emblaRef, emblaApi] = useEmblaCarousel(options);
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    ...options,loop: true});
   const tweenFactor = useRef(0);
   const tweenNodes = useRef([]);
 
@@ -94,12 +95,12 @@ const EmblaCarousel = (props) => {
 
   return (
     <div className="embla">
-      <div className="embla__viewport" ref={emblaRef}>
+      <div className="embla__viewport border" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((item, index) => (
             <div className="embla__slide" key={index}>
               <div className="embla__slide__number">
-                <img src={item} alt="" className="w-[80%] max-sm:w-full object-contain " />
+                <img src={item} alt="" className="w-full max-sm:w-full object-contain h-full " />
               </div>
             </div>
           ))}

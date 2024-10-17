@@ -94,13 +94,13 @@ const EmblaCarousel = (props) => {
   }, [emblaApi, tweenScale]);
 
   return (
-    <div className="embla">
+    <div className="embla mt-8 max-sm:mt-3">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((item, index) => (
-            <div className="embla__slide" key={index}>
-              <div className="embla__slide__number">
-                <img src={item} alt="" className="w-full max-sm:w-full object-contain h-full " />
+            <div className="embla__slide " key={index}>
+              <div className="embla__slide__number ">
+                <img src={item} alt="" className="w-full max-sm:w-full object-contain h-full  " />
               </div>
             </div>
           ))}
